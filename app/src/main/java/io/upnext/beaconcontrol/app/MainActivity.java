@@ -115,12 +115,16 @@ public class MainActivity extends AppCompatActivity implements ReloadConfigurati
 
             @Override
             public void onBeaconsConfigurationLoaded(List<Beacon> list) {
-                beaconsFragment.setBeacons(list);
+                if (beaconsFragment != null) {
+                    beaconsFragment.setBeacons(list);
+                }
             }
 
             @Override
             public void onBeaconProximityChanged(Beacon beacon) {
-                beaconsFragment.onBeaconProximityChanged(beacon);
+                if (beaconsFragment != null) {
+                    beaconsFragment.onBeaconProximityChanged(beacon);
+                }
             }
         });
         beaconControl.setBeaconErrorListener(new BeaconErrorListener() {
