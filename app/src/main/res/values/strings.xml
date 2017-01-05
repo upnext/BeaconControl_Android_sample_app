@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BeaconControl</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="tab_beacons_title">Beacons</string>
+    <string name="tab_actions_title">Actions</string>
+    <string name="tab_info_title">Info</string>
+
+    <string name="loading">Loading…</string>
+    <string name="beacons_list_empty">No beacons to display.</string>
+    <string name="actions_list_empty">No actions to display.</string>
+
+    <string name="beacons_reload_configuration">Reload configuration</string>
+
+    <string name="dialog_location_permission_required_title">Permission required</string>
+    <string name="dialog_location_permission_required_message">In order to be able to scan for beacons, the application requires access to location.</string>
+    <string name="dialog_location_permission_required_button_positive">Settings</string>
+    <string name="dialog_location_permission_required_button_negative">Finish</string>
+
+    <string name="login_screen_email_label">Email:</string>
+    <string name="login_screen_password_label">Password:</string>
+    <string name="login_screen_login_button">LOG IN</string>
+    <string name="login_screen_create_account">I don\'t have an account…</string>
+
+    <string name="login_screen_error_dialog_title">Error</string>
+    <string name="login_screen_error_dialog_message">An error has occurred. Your credentials might be incorrect.</string>
+    <string name="login_screen_error_dialog_positive_button">Retry</string>
+    <string name="login_screen_error_dialog_negative_button">Cancel</string>
+
+    <string name="login_screen_create_account_dialog_title">Create Account</string>
+    <string name="login_screen_create_account_dialog_message">If you don\'t have a BeaconControl account yet, visit our website beaconcontrol.io to sign up.</string>
+    <string name="login_screen_create_account_dialog_positive_button">Go to website</string>
+    <string name="login_screen_create_account_dialog_negative_button">Cancel</string>
+
+    <string name="beacon_control_signup_website_url">https://admin.beaconcontrol.io/admins/sign_up/</string>
+
+    <string name="information_text">This is a test application using BeaconControl library.\n\nCopyright © 2016, Upnext Technologies Sp. z o.o. All rights reserved.</string>
+    <string name="information_logout_button">Logout</string>
+</resources>
