@@ -30,7 +30,7 @@ android {
 }
 
 dependencies {
-    compile 'io.upnext.beaconcontrol:beaconcontrol:1.0.0'
+    compile 'io.upnext.beaconcontrol:beaconcontrol:1.0.2'
 
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.android.support:design:25.0.1'
